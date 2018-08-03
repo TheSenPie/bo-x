@@ -7,4 +7,4 @@ To be _sure, that everything will be in its best state and beauty,_ follow these
 	2. The element which will be the modal must be created with <a> tag and own a [href] attribute which will indicate to the image which will be shown on the screen
 	3. Make sure to use the js file in the end of the body tag because all <a> tags, should be loaded when the programm get them from DOM
 
->Also, the first part of the library name Bo, isn't the Armenian interjection Բօ~ (Boo!) ![alt text](https://iconsplace.com/wp-content/uploads/_icons/000000/256/png/ghost-icon-256.png "Booo!"), which people usually use for sacring . It is shortand of my name Smbat -> Smbo -> Bo. Thank you for your attention. :) 
+>Also, the first part of the library name Bo, isn't the Armenian interjection Բօ~ (Boo!) ![alt text](https://raw.githubusercontent.com/Smbo-2002/bo-x/master/example/img/ghost.png "Booo!"), which people usually use for sacring . It is shortand of my name Smbat -> Smbo -> Bo. Thank you for your attention. :) 
