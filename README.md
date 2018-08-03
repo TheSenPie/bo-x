@@ -1,7 +1,7 @@
 Bo-x: The best library
 ===============
-## Best library for showing the same image in the full size after click.
-If you want to _make sure that everything will be in its best state and beauty,_ follow these rules:
+## If you want lightweight and easy to library for showing the same image on the whole screen like modal, this library is for you.
+To be _sure, that everything will be in its best state and beauty,_ follow these rules:
 
 	1. Beforoe starting, remove "example" folder (You will free some space)
 	2. The element which will be the modal must be created with <a> tag and own a [href] attribute which will indicate to the image which will be shown on the screen
