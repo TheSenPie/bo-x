@@ -1,9 +1,10 @@
-To use this library and make sure that everything will work correcltly, follow these rules:
-	
-	# Beforoe starting to use this library remove "example" folder
-	# The element which will be the modal must be created with <a> tag and own a [href] attribute which will indicate to the image which will be shown on the screen
-	# Make sure to use the js file in the end of the body tag because all <a> tags, should be loaded when the programm get them from DOM
+Bo-x: The best library
+===============
+## If you want lightweight and easy to library for showing the same image on the whole screen like modal, this library is for you.
+To be _sure, that everything will be in its best state and beauty,_ follow these rules:
 
-Also, the name of the library Bo, doesn't mean that it's scaring someone like Armenian interjection Բօ~ (Boo!) do. It is shortand of my name Smbat -> Smbo -> Bo. Thank you for your attention. ;)
+	1. Beforoe starting, remove "example" folder (You will free some space)
+	2. The element which will be the modal must be created with <a> tag and own a [href] attribute which will indicate to the image which will be shown on the screen
+	3. Make sure to use the js file in the end of the body tag because all <a> tags, should be loaded when the programm get them from DOM
 
-	#Insert "Ur Welcom here*:" ->  
+>Also, the first part of the library name Bo, isn't the Armenian interjection Բօ~ (Boo!) ![alt text](https://iconsplace.com/wp-content/uploads/_icons/000000/256/png/ghost-icon-256.png "Booo!"), which people usually use for sacring . It is shortand of my name Smbat -> Smbo -> Bo. Thank you for your attention. :) 
