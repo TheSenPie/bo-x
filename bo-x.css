@@ -1,0 +1,19 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.bo-x-modal-container {
+	display: grid;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.bo-x-modal-image {
+	max-width: 100%;
+	max-height: 100vh;
+	margin: auto;
+}
