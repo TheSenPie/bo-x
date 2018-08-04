@@ -1,6 +1,6 @@
 Bo-x: The best library
 ===============
-## If you want lightweight and easy to library for showing the same image on the whole screen like modal, this library is for you.
+## If you want a lightweight and easy to use library for showing the same image on the whole screen like modal, this library is for you.
 To be _sure, that everything will be in its best state and beauty,_ follow these rules:
 
 	1. Beforoe starting, remove "example" folder (You will free some space)
