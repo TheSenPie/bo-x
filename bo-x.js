@@ -3,6 +3,21 @@
 	// Main class with its prefix
 	var classWithPrefix = 'bo-x-modal';
 
+	//Check if the client need to include css without css file and bring the action 8)
+	var boOmCsses = document.getElementsByTagName('DIV')
+
+	//Here we will store boolen which will tell us if he/she uses our magical class 'bo-om-css'
+	var needInlineStyle;
+
+	for(i = 0; i < boOmCsses.length; i++) {
+		needInlineStyle = boOmCsses[i].classList.contains('bo-om-css');
+		if(needInlineStyle)
+			i = boOmCsses.length;
+	};
+	
+	if (needInlineStyle)
+		addStyles();
+
 	// Store all a elemnts with class .bo-modal
 	var aElements = document.getElementsByClassName(classWithPrefix);
 
@@ -25,6 +40,26 @@
 		}(i);
 	};
 
+	function addStyles () {
+		//Getting head element
+		var head = document.getElementsByTagName('HEAD')[0];
+
+		//Creating css string which will contain all our styles
+		var css = '*{margin:0;padding:0}.bo-x-modal-container{display:grid;height:100%;background:rgba(0,0,0,.9);position:fixed;top:0;width:100%}.bo-x-modal-image{max-width:100%;max-height:100vh;margin:auto}';
+
+		//Creating our style tag which will be appended to head tag
+		var style = document.createElement('style');
+
+		//Adding type attribute to specify the content type of our style element
+		style.type = 'text/css';
+
+		//Adding our style to style element
+		style.appendChild(document.createTextNode(css));
+
+		//Adding css to document head
+		head.appendChild(style);
+	}
+	
 	function openModal ( aElement ) {
 		//Getting body element
 		var body = document.getElementsByTagName('BODY')[0];
