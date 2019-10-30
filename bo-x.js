@@ -4,7 +4,7 @@
 	var classWithPrefix = 'bo-x-modal';
 
 	//Check if the client need to include css without css file and bring the action 8)
-	var boOmCsses = document.getElementsByTagName('DIV')
+	var boOmCsses = document.getElementsByTagName('DIV');
 
 	//Here we will store boolen which will tell us if he/she uses our magical class 'bo-om-css'
 	var needInlineStyle;
